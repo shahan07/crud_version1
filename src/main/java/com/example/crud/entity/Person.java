@@ -22,7 +22,7 @@ public class Person {
     //@GeneratedValue
     private Long id;
     private String name;
-    //private String email;
+    private String email;
     //static LocalDateTime dob;
     //private Timestamp useraddat;
     //private Timestamp userupdateat;
