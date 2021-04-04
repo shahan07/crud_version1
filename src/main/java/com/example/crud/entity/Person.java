@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.sql.Timestamp;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Data
@@ -23,7 +24,7 @@ public class Person {
     private Long id;
     private String name;
     private String email;
-    //static LocalDateTime dob;
+    private LocalDate dob;
     //private Timestamp useraddat;
     //private Timestamp userupdateat;
 }
